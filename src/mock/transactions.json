@@ -1,0 +1,120 @@
+[
+  {
+    "_id": "2020-09-04",
+    "transactions": [
+      {
+        "name": "contract call",
+        "total": 3076
+      },
+      {
+        "name": "normal",
+        "total": 44
+      },
+      {
+        "name": "remasc",
+        "total": 2559
+      },
+      {
+        "name": "contract deploy",
+        "total": 5
+      },
+      {
+        "name": "bridge",
+        "total": 353
+      }
+    ],
+    "gas": 288689465
+  },
+  {
+    "_id": "2020-09-03",
+    "transactions": [
+      {
+        "name": "remasc",
+        "total": 2751
+      },
+      {
+        "name": "contract deploy",
+        "total": 2
+      },
+      {
+        "name": "normal",
+        "total": 33
+      },
+      {
+        "name": "contract call",
+        "total": 3110
+      },
+      {
+        "name": "bridge",
+        "total": 364
+      }
+    ],
+    "gas": 271411258
+  },
+  {
+    "_id": "2020-09-02",
+    "transactions": [
+      {
+        "name": "contract call",
+        "total": 2762
+      },
+      {
+        "name": "normal",
+        "total": 23
+      },
+      {
+        "name": "bridge",
+        "total": 363
+      },
+      {
+        "name": "remasc",
+        "total": 2731
+      }
+    ],
+    "gas": 248728396
+  },
+  {
+    "_id": "2020-09-01",
+    "transactions": [
+      {
+        "name": "remasc",
+        "total": 2845
+      },
+      {
+        "name": "contract call",
+        "total": 3187
+      },
+      {
+        "name": "normal",
+        "total": 23
+      },
+      {
+        "name": "bridge",
+        "total": 369
+      }
+    ],
+    "gas": 258293785
+  },
+  {
+    "_id": "2020-08-31",
+    "transactions": [
+      {
+        "name": "normal",
+        "total": 19
+      },
+      {
+        "name": "bridge",
+        "total": 367
+      },
+      {
+        "name": "remasc",
+        "total": 2831
+      },
+      {
+        "name": "contract call",
+        "total": 1867
+      }
+    ],
+    "gas": 200308132
+  }
+]

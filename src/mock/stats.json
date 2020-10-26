@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "5f52542aad48c6154f39549b",
+    "circulating": null,
+    "activeAccounts": 10,
+    "hashrate": 500,
+    "timestamp": 1599231018594,
+    "blockHash": "0x37b4238d90fff50b12c015a752885c3205cb313aefa3651ec1264ddf4cd37633",
+    "blockNumber": 2672186
+  },
+  {
+    "_id": "5f52546ead48c6154f39549c",
+    "circulating": {
+      "circulatingSupply": "110",
+      "totalSupply": 21000000,
+      "bridgeBalance": "20999890"
+    },
+    "activeAccounts": 10,
+    "hashrate": 501,
+    "timestamp": 1599231086947,
+    "blockHash": "0x6947120085b9c14a736a50a5a8e8877edbff2fb051a39f7eb00ce7e0061b5713",
+    "blockNumber": 2672187
+  },
+  {
+    "_id": "5f525485ad48c6154f39549d",
+    "circulating": {
+      "circulatingSupply": "180",
+      "totalSupply": 21000000,
+      "bridgeBalance": "20999820"
+    },
+    "activeAccounts": 11,
+    "hashrate": 504,
+    "timestamp": 1599231109009,
+    "blockHash": "0xfa81bc9a0526f647952f2bc7fc7ce1c9f949009603158e70f81c945a5f3725d4",
+    "blockNumber": 2672187
+  },
+  {
+    "_id": "5f525493ad48c6154f39549e",
+    "circulating": {
+      "circulatingSupply": "200",
+      "totalSupply": 21000000,
+      "bridgeBalance": "20999800"
+    },
+    "activeAccounts": 14,
+    "hashrate": 500,
+    "timestamp": 1599231123970,
+    "blockHash": "0x68d656eb314a58240ccd98be81ed4f04182105d2712e765a19d23d0cebfaba5d",
+    "blockNumber": 2672188
+  },
+  {
+    "_id": "5f5254abad48c6154f39549f",
+    "circulating": {
+      "circulatingSupply": "120",
+      "totalSupply": 21000000,
+      "bridgeBalance": "20999880"
+    },
+    "activeAccounts": 15,
+    "hashrate": 509,
+    "timestamp": 1599231147207,
+    "blockHash": "0xc9a5b7a6449e91795bd7752cfcb7833e0cbe642003538f4fbacd56ba185310b3",
+    "blockNumber": 2672189
+  }
+]

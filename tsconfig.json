@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "target": "es6",
+    "lib": ["esnext"],
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  }
+}
