@@ -92,5 +92,4 @@ export type ISummaryStats = {
   activeAccounts: number
   circulatingSupply: number
 }
-;``
 ```
