@@ -35,18 +35,16 @@ export type IMongoTransaction = {
   txId: string
 }
 
+type ITransactionTypeObj = { name: string; total: number; gas: number }
+
 export type IGroupedTransaction = {
   _id: string
   gas: number
-  transactions: { name: string; total: number; gas: number }[]
+  transactions: ITransactionTypeObj[]
 }
 
-export type ISummarizeTransaction = {
+export interface ISummarizeTransaction {
   id: string
   gas: number
-  contract_call?: number
-  contract_deploy?: number
-  bridge?: number
-  remasc?: number
-  normal?: number
+  [key: string]: string | number | ITransactionTypeObj
 }

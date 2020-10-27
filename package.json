@@ -1,6 +1,6 @@
 {
   "name": "rsk-explorer-summarizer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Summarize data from RSK Explorer db",
   "main": "index.js",
   "author": "7alip <talipaltas@gmail.com>",

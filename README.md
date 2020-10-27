@@ -5,7 +5,7 @@
 1. Transaction data structure in database
 
 ```ts
-type IMongoTransaction = {
+{
   _id: string
   hash: string
   nonce: number
@@ -44,24 +44,28 @@ type IMongoTransaction = {
 2. Grouped Transaction Structure
 
 ```ts
-type IGroupedTransaction = {
+{
   _id: string // %Y-%m-%d
   gas: number
-  transactions: { name: string; total: number }[]
+  transactions: {
+    name: string
+    total: number
+  }
+  ;[]
 }
 ```
 
-3. Summarized Transaction Structure
+3. RESULT: Summarized Transaction Structure
 
 ```ts
-export type ISummarizeTransaction = {
+{
   id: string // %Y-%m-%d
   gas: number
-  contract_call?: number
-  contract_deploy?: number
-  bridge?: number
-  remasc?: number
-  normal?: number
+  contract_call?: { name: string; total: number; gas: number }
+  contract_deploy?: { name: string; total: number; gas: number }
+  bridge?: { name: string; total: number; gas: number }
+  remasc?: { name: string; total: number; gas: number }
+  normal?: { name: string; total: number; gas: number }
 }
 ```
 
@@ -70,7 +74,7 @@ export type ISummarizeTransaction = {
 1. Stats Structure in database
 
 ```ts
-type IMongoStats = {
+{
   _id: string // %Y-%m-%d
   circulating: {
     circulatingSupply: string
@@ -83,10 +87,10 @@ type IMongoStats = {
 }
 ```
 
-2. Grouped and Summarized Stats Structure
+2. RESULT: Grouped and Summarized Stats Structure
 
 ```ts
-export type ISummaryStats = {
+{
   id: string // %Y-%m-%d
   hashrate: number
   activeAccounts: number
