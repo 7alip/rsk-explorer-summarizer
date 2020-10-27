@@ -5,7 +5,7 @@
 1. Transaction data structure in database
 
 ```ts
-{
+interface {
   _id: string
   hash: string
   nonce: number
@@ -44,7 +44,7 @@
 2. Grouped Transaction Structure
 
 ```ts
-{
+interface {
   _id: string // %Y-%m-%d
   gas: number
   transactions: {
@@ -58,7 +58,7 @@
 3. RESULT: Summarized Transaction Structure
 
 ```ts
-{
+interface {
   id: string // %Y-%m-%d
   gas: number
   contract_call?: { name: string; total: number; gas: number }
@@ -74,7 +74,7 @@
 1. Stats Structure in database
 
 ```ts
-{
+interface {
   _id: string // %Y-%m-%d
   circulating: {
     circulatingSupply: string
@@ -90,7 +90,7 @@
 2. RESULT: Grouped and Summarized Stats Structure
 
 ```ts
-{
+interface {
   id: string // %Y-%m-%d
   hashrate: number
   activeAccounts: number
