@@ -1,120 +1,147 @@
 [
   {
     "_id": "2020-09-04",
+    "month": "2020-09",
     "transactions": [
       {
         "name": "contract call",
-        "total": 3076
+        "total": 3076,
+        "gas": 1
       },
       {
         "name": "normal",
-        "total": 44
+        "total": 44,
+        "gas": 2
       },
       {
         "name": "remasc",
-        "total": 2559
+        "total": 2559,
+        "gas": 0
       },
       {
         "name": "contract deploy",
-        "total": 5
+        "total": 5,
+        "gas": 3
       },
       {
         "name": "bridge",
-        "total": 353
+        "total": 353,
+        "gas": 4
       }
     ],
-    "gas": 288689465
+    "gas": 10
   },
   {
     "_id": "2020-09-03",
+    "month": "2020-09",
     "transactions": [
       {
         "name": "remasc",
-        "total": 2751
+        "total": 2751,
+        "gas": 0
       },
       {
         "name": "contract deploy",
-        "total": 2
+        "total": 2,
+        "gas": 2
       },
       {
         "name": "normal",
-        "total": 33
+        "total": 33,
+        "gas": 4
       },
       {
         "name": "contract call",
-        "total": 3110
+        "total": 3110,
+        "gas": 6
       },
       {
         "name": "bridge",
-        "total": 364
+        "total": 364,
+        "gas": 8
       }
     ],
-    "gas": 271411258
+    "gas": 20
   },
   {
     "_id": "2020-09-02",
+    "month": "2020-09",
     "transactions": [
       {
         "name": "contract call",
-        "total": 2762
+        "total": 2762,
+        "gas": 500
       },
       {
         "name": "normal",
-        "total": 23
+        "total": 23,
+        "gas": 500
       },
       {
         "name": "bridge",
-        "total": 363
+        "total": 363,
+        "gas": 500
       },
       {
         "name": "remasc",
-        "total": 2731
+        "total": 2731,
+        "gas": 0
       }
     ],
-    "gas": 248728396
+    "gas": 1500
   },
   {
     "_id": "2020-09-01",
+    "month": "2020-09",
     "transactions": [
       {
         "name": "remasc",
-        "total": 2845
+        "total": 2845,
+        "gas": 0
       },
       {
         "name": "contract call",
-        "total": 3187
+        "total": 3187,
+        "gas": 3500
       },
       {
         "name": "normal",
-        "total": 23
+        "total": 23,
+        "gas": 500
       },
       {
         "name": "bridge",
-        "total": 369
+        "total": 369,
+        "gas": 500
       }
     ],
-    "gas": 258293785
+    "gas": 4500
   },
   {
     "_id": "2020-08-31",
+    "month": "2020-09",
     "transactions": [
       {
         "name": "normal",
-        "total": 19
+        "total": 19,
+        "gas": 500
       },
       {
         "name": "bridge",
-        "total": 367
+        "total": 367,
+        "gas": 2000
       },
       {
         "name": "remasc",
-        "total": 2831
+        "total": 2831,
+        "gas": 0
       },
       {
         "name": "contract call",
-        "total": 1867
+        "total": 1867,
+        "gas": 1500
       }
     ],
-    "gas": 200308132
+    "gas": 4000
   }
 ]

@@ -1,5 +1,5 @@
 import { Db, MongoClient } from 'mongodb'
-import getGroupedTransactionsFromDb from '../functions/getGroupedTransactionsFromDb'
+import { getGroupedTransactionsFromDb } from '../functions'
 
 import mockTransactions from '../mock/transactions.json'
 

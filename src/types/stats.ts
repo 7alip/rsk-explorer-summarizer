@@ -12,6 +12,7 @@ export type IMongoStats = {
 
 export type ISummaryStats = {
   id: string
+  month: string
   hashrate: number
   activeAccounts: number
   circulatingSupply: number
@@ -19,5 +20,5 @@ export type ISummaryStats = {
 
 export type IStastSummaryObject = Record<
   string,
-  { hashrate: number; activeAccounts: number; circulatingSupply: number }
+  { month: string; hashrate: number; activeAccounts: number; circulatingSupply: number }
 >

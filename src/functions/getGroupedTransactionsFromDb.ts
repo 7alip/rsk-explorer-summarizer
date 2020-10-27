@@ -41,6 +41,7 @@ const getGroupedTransactionsFromDb = async (db: Db): Promise<IGroupedTransaction
             $push: {
               name: '$_id.type',
               total: '$count',
+              gas: '$gas',
             },
           },
           gas: {

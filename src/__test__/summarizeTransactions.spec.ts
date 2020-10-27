@@ -1,14 +1,15 @@
-import summarizeTransactions from '../functions/summarizeTransactions'
+import { summarizeTransactions } from '../functions'
 import mockTransactionsData from '../mock/transactions.json'
 
 const expectingResult = {
   id: '2020-09-04',
-  contract_call: 3076,
-  normal: 44,
-  remasc: 2559,
-  contract_deploy: 5,
-  bridge: 353,
-  gas: 288689465,
+  month: '2020-09',
+  contract_call: { total: 3076, gas: 1 },
+  normal: { total: 44, gas: 2 },
+  remasc: { total: 2559, gas: 0 },
+  contract_deploy: { total: 5, gas: 3 },
+  bridge: { total: 353, gas: 4 },
+  gas: 10,
 }
 
 describe('summarize transactions', () => {

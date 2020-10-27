@@ -1,3 +1,5 @@
+export type ITransactionType = 'remasc' | 'contract call' | 'contract deploy' | 'normal' | 'bridge'
+
 export type IMongoTransaction = {
   _id: string
   hash: string
@@ -29,14 +31,14 @@ export type IMongoTransaction = {
     status: string
     logsBloom: string
   }
-  txType: 'remasc' | 'contract call' | 'normal' | 'bridge'
+  txType: ITransactionType
   txId: string
 }
 
 export type IGroupedTransaction = {
   _id: string
   gas: number
-  transactions: { name: string; total: number }[]
+  transactions: { name: string; total: number; gas: number }[]
 }
 
 export type ISummarizeTransaction = {
