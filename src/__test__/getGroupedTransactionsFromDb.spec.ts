@@ -1,5 +1,5 @@
 import { Db, MongoClient } from 'mongodb'
-import getTransactionsFromDb from '../functions/getTransactionsFromDb'
+import getGroupedTransactionsFromDb from '../functions/getGroupedTransactionsFromDb'
 
 import mockTransactions from '../mock/transactions.json'
 
@@ -19,8 +19,9 @@ describe('group transactions', () => {
     await client.close()
   })
 
-  test('should group transactions', async () => {
-    const transactions = await getTransactionsFromDb(db)
+  test('should match transaction remasc values', async () => {
+    console.log('Aggregating all the transactions will take some time!')
+    const transactions = await getGroupedTransactionsFromDb(db)
     const firstRemascValue = transactions[0].transactions.find((tsx) => tsx.name === 'remasc')?.total
     const mockFirstRemascValue = mockTransactions[0].transactions.find((tsx) => tsx.name === 'remasc')?.total
 

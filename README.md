@@ -45,7 +45,7 @@ type IMongoTransaction = {
 
 ```ts
 type IGroupedTransaction = {
-  _id: string
+  _id: string // %Y-%m-%d
   gas: number
   transactions: { name: string; total: number }[]
 }
@@ -55,7 +55,7 @@ type IGroupedTransaction = {
 
 ```ts
 export type ISummarizeTransaction = {
-  id: string
+  id: string // %Y-%m-%d
   gas: number
   contract_call?: number
   contract_deploy?: number
@@ -71,7 +71,7 @@ export type ISummarizeTransaction = {
 
 ```ts
 type IMongoStats = {
-  _id: string
+  _id: string // %Y-%m-%d
   circulating: {
     circulatingSupply: string
     totalSupply: number

@@ -7,7 +7,7 @@ import { IGroupedTransaction } from '../types/transactions'
  *
  * @returns promised transactions collection array grouped by date
  */
-const getTransactionsFromDb = async (db: Db): Promise<IGroupedTransaction[]> => {
+const getGroupedTransactionsFromDb = async (db: Db): Promise<IGroupedTransaction[]> => {
   return await db
     .collection('transactions')
     .aggregate([
@@ -56,4 +56,4 @@ const getTransactionsFromDb = async (db: Db): Promise<IGroupedTransaction[]> => 
     .toArray()
 }
 
-export default getTransactionsFromDb
+export default getGroupedTransactionsFromDb

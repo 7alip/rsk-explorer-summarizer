@@ -8,9 +8,9 @@ import { IMongoStats } from '../types/stats'
  * @returns promised stats collection array
  *
  */
-const getStatsFromDb = async (db: Db): Promise<IMongoStats[]> => {
+const getStatsCollectionFromDb = async (db: Db): Promise<IMongoStats[]> => {
   const stats = await db.collection('statsCollection').find().toArray()
   return stats
 }
 
-export default getStatsFromDb
+export default getStatsCollectionFromDb

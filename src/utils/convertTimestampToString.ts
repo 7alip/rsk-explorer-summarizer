@@ -1,3 +1,9 @@
+/**
+ *
+ * @param timestamp - timestamp as number
+ *
+ * @returns id string represents day date
+ */
 export default function convertTimestampToString(timestamp: number): string {
   const date = new Date(timestamp)
   const day = ('0' + date.getDate()).slice(-2)

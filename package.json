@@ -1,6 +1,6 @@
 {
   "name": "rsk-explorer-summarizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Summarize data from RSK Explorer db",
   "main": "index.js",
   "author": "7alip <talipaltas@gmail.com>",
@@ -42,7 +42,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && npm run lint"
+      "pre-commit": "pretty-quick --staged && yarn lint && yarn type-check && yarn test"
     }
   }
 }

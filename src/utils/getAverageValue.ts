@@ -6,7 +6,8 @@ type IAverageValue = (prev: number, current: number, index: number) => number
  * @param current - current value in a loop
  * @param index - loop index
  *
- * @description
+ * @returns current average value
+ *
  */
 const getAverageValue: IAverageValue = (prev: number, current: number, index: number): number =>
   (prev * index + current) / (index + 1)
