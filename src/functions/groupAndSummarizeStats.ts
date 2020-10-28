@@ -31,6 +31,7 @@ const groupAndSummarizeStats = (statsData: IMongoStats[]): ISummaryStats[] => {
       obj[date].activeAccounts = maxActiveAccounts
       obj[date].circulatingSupply = maxCirculatingSupply
       obj[date].month = month
+      obj[date].count = obj[date].count + 1
     } else {
       // Create new summary object
       obj[date] = {
@@ -38,18 +39,20 @@ const groupAndSummarizeStats = (statsData: IMongoStats[]): ISummaryStats[] => {
         activeAccounts: maxActiveAccounts,
         circulatingSupply: maxCirculatingSupply,
         month,
+        count: 0,
       }
     }
 
     return obj
   }, {})
 
-  return Object.entries(statsSummary).map(([key, { month, hashrate, activeAccounts, circulatingSupply }]) => ({
+  return Object.entries(statsSummary).map(([key, { month, hashrate, activeAccounts, circulatingSupply, count }]) => ({
     id: key,
     month,
     hashrate,
     activeAccounts,
     circulatingSupply,
+    count,
   }))
 }
 

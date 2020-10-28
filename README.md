@@ -50,8 +50,7 @@ interface {
   transactions: {
     name: string
     total: number
-  }
-  ;[]
+  }[]
 }
 ```
 
@@ -95,5 +94,6 @@ interface {
   hashrate: number
   activeAccounts: number
   circulatingSupply: number
+  count: number
 }
 ```

@@ -46,5 +46,5 @@ export type IGroupedTransaction = {
 export interface ISummarizeTransaction {
   id: string
   gas: number
-  [key: string]: string | number | ITransactionTypeObj
+  [key: string]: string | number | { total: number; gas: number }
 }
