@@ -39,7 +39,7 @@ const groupAndSummarizeStats = (statsData: IMongoStats[]): ISummaryStats[] => {
         activeAccounts: maxActiveAccounts,
         circulatingSupply: maxCirculatingSupply,
         month,
-        count: 0,
+        count: 1,
       }
     }
 
