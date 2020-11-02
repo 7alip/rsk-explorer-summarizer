@@ -15,7 +15,9 @@
     "format": "prettier --config .prettierrc --write **/*.{ts,json}"
   },
   "dependencies": {
-    "mongodb": "^3.6.2"
+    "date-fns": "^2.16.1",
+    "mongodb": "^3.6.2",
+    "p-map": "^4.0.0"
   },
   "devDependencies": {
     "@shelf/jest-mongodb": "^1.2.3",

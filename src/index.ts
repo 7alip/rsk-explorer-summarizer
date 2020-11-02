@@ -7,6 +7,7 @@ import {
   getStatsCollectionFromDb,
 } from './functions'
 import writeFile from './utils/writeFile'
+import { ISummaryStats } from 'types/stats'
 
 const URL = 'mongodb://localhost:27017'
 const DB_NAME = 'blockDB_1_1_5'
@@ -16,12 +17,28 @@ const DB_NAME = 'blockDB_1_1_5'
   await client.connect()
   const db: Db = client.db(DB_NAME)
 
-  console.time('Getting all stats took: ')
-  const allStats = await getStatsCollectionFromDb(db)
-  console.timeEnd('Getting all stats took: ')
+  const statsPromises = await getStatsCollectionFromDb(db)
 
-  const statsResult = groupAndSummarizeStats(allStats)
-  writeFile('result-stats', statsResult)
+  const statsResultArr: ISummaryStats[] = []
+
+  console.log('Start resolving all stats promises and writing into individual files')
+  await Promise.all(
+    statsPromises.map(async (statsPromise, i) => {
+      const stats = await statsPromise.toArray()
+      const statsSummary = groupAndSummarizeStats(stats)
+
+      if (statsSummary[0]) {
+        console.log(`Writing ${i + 1}. stats`)
+        const monthStr = statsSummary[0].id.substr(0, 7) // yyyy-MM-dd
+        writeFile('stats/stats_' + monthStr, statsSummary)
+        statsResultArr.push(...statsSummary)
+      }
+    }),
+  )
+
+  writeFile('result-stats', statsResultArr)
+
+  console.log('All stats files has been written succesfully!')
 
   console.time('Grouping transactions took: ')
   const groupedTransactions = await getGroupedTransactionsFromDb(db)

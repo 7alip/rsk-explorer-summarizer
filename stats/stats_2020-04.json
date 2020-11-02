@@ -1,0 +1,242 @@
+[
+  {
+    "id": "2020-04-01",
+    "month": "2020-04",
+    "hashrate": 49265394094130990000,
+    "activeAccounts": 24331,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3786
+  },
+  {
+    "id": "2020-04-02",
+    "month": "2020-04",
+    "hashrate": 48858404852873050000,
+    "activeAccounts": 24362,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3941
+  },
+  {
+    "id": "2020-04-03",
+    "month": "2020-04",
+    "hashrate": 50919673854371030000,
+    "activeAccounts": 24376,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3855
+  },
+  {
+    "id": "2020-04-04",
+    "month": "2020-04",
+    "hashrate": 51592545724971500000,
+    "activeAccounts": 24378,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3765
+  },
+  {
+    "id": "2020-04-05",
+    "month": "2020-04",
+    "hashrate": 52772640679268794000,
+    "activeAccounts": 24385,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3752
+  },
+  {
+    "id": "2020-04-06",
+    "month": "2020-04",
+    "hashrate": 52844309225765520000,
+    "activeAccounts": 24387,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3781
+  },
+  {
+    "id": "2020-04-07",
+    "month": "2020-04",
+    "hashrate": 50823462671384250000,
+    "activeAccounts": 24396,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3752
+  },
+  {
+    "id": "2020-04-08",
+    "month": "2020-04",
+    "hashrate": 50954390036612260000,
+    "activeAccounts": 24408,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3796
+  },
+  {
+    "id": "2020-04-09",
+    "month": "2020-04",
+    "hashrate": 52595200572842600000,
+    "activeAccounts": 24416,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3793
+  },
+  {
+    "id": "2020-04-10",
+    "month": "2020-04",
+    "hashrate": 52520635349135745000,
+    "activeAccounts": 24417,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3751
+  },
+  {
+    "id": "2020-04-11",
+    "month": "2020-04",
+    "hashrate": 54122443774965900000,
+    "activeAccounts": 24419,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3630
+  },
+  {
+    "id": "2020-04-12",
+    "month": "2020-04",
+    "hashrate": 53517658851360540000,
+    "activeAccounts": 24419,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3518
+  },
+  {
+    "id": "2020-04-13",
+    "month": "2020-04",
+    "hashrate": 54897417025602470000,
+    "activeAccounts": 24421,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3656
+  },
+  {
+    "id": "2020-04-14",
+    "month": "2020-04",
+    "hashrate": 55029133923274130000,
+    "activeAccounts": 24424,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3691
+  },
+  {
+    "id": "2020-04-15",
+    "month": "2020-04",
+    "hashrate": 54824089415193760000,
+    "activeAccounts": 24427,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3698
+  },
+  {
+    "id": "2020-04-16",
+    "month": "2020-04",
+    "hashrate": 54531310130028440000,
+    "activeAccounts": 24431,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3860
+  },
+  {
+    "id": "2020-04-17",
+    "month": "2020-04",
+    "hashrate": 55333261243844190000,
+    "activeAccounts": 24434,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3751
+  },
+  {
+    "id": "2020-04-18",
+    "month": "2020-04",
+    "hashrate": 54400970644593640000,
+    "activeAccounts": 24439,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3570
+  },
+  {
+    "id": "2020-04-19",
+    "month": "2020-04",
+    "hashrate": 55614858341772240000,
+    "activeAccounts": 24442,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3754
+  },
+  {
+    "id": "2020-04-20",
+    "month": "2020-04",
+    "hashrate": 55014068693123230000,
+    "activeAccounts": 23999,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3713
+  },
+  {
+    "id": "2020-04-21",
+    "month": "2020-04",
+    "hashrate": 53757583499574680000,
+    "activeAccounts": 23795,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3626
+  },
+  {
+    "id": "2020-04-22",
+    "month": "2020-04",
+    "hashrate": 53204804878337990000,
+    "activeAccounts": 23796,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3600
+  },
+  {
+    "id": "2020-04-23",
+    "month": "2020-04",
+    "hashrate": 53928369713493025000,
+    "activeAccounts": 23800,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3706
+  },
+  {
+    "id": "2020-04-24",
+    "month": "2020-04",
+    "hashrate": 54121500378195770000,
+    "activeAccounts": 23805,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3775
+  },
+  {
+    "id": "2020-04-25",
+    "month": "2020-04",
+    "hashrate": 53595024551360370000,
+    "activeAccounts": 23807,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3684
+  },
+  {
+    "id": "2020-04-26",
+    "month": "2020-04",
+    "hashrate": 53281664123279884000,
+    "activeAccounts": 23817,
+    "circulatingSupply": 162.420468795824,
+    "numberOfEntries": 3725
+  },
+  {
+    "id": "2020-04-27",
+    "month": "2020-04",
+    "hashrate": 51982055320438055000,
+    "activeAccounts": 23824,
+    "circulatingSupply": 172.420468795824,
+    "numberOfEntries": 3794
+  },
+  {
+    "id": "2020-04-28",
+    "month": "2020-04",
+    "hashrate": 51560601217977115000,
+    "activeAccounts": 23828,
+    "circulatingSupply": 172.420468795824,
+    "numberOfEntries": 3614
+  },
+  {
+    "id": "2020-04-29",
+    "month": "2020-04",
+    "hashrate": 51813688733112320000,
+    "activeAccounts": 23833,
+    "circulatingSupply": 172.420468795824,
+    "numberOfEntries": 3774
+  },
+  {
+    "id": "2020-04-30",
+    "month": "2020-04",
+    "hashrate": 51638778083916210000,
+    "activeAccounts": 23844,
+    "circulatingSupply": 172.420468795824,
+    "numberOfEntries": 3980
+  }
+]

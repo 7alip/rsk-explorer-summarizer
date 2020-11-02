@@ -8,7 +8,7 @@ const expectingResult = [
     hashrate: 502.8,
     activeAccounts: 15,
     circulatingSupply: 200,
-    count: 5,
+    numberOfEntries: 5,
   },
 ]
 

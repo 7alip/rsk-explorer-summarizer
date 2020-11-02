@@ -1,0 +1,250 @@
+[
+  {
+    "id": "2020-08-01",
+    "month": "2020-08",
+    "hashrate": 53927784489858130000,
+    "activeAccounts": 31474,
+    "circulatingSupply": 255.032072527944,
+    "numberOfEntries": 3971
+  },
+  {
+    "id": "2020-08-02",
+    "month": "2020-08",
+    "hashrate": 53776138193175270000,
+    "activeAccounts": 31532,
+    "circulatingSupply": 255.032072527944,
+    "numberOfEntries": 3940
+  },
+  {
+    "id": "2020-08-03",
+    "month": "2020-08",
+    "hashrate": 53519753416832066000,
+    "activeAccounts": 31755,
+    "circulatingSupply": 255.032072527944,
+    "numberOfEntries": 4181
+  },
+  {
+    "id": "2020-08-04",
+    "month": "2020-08",
+    "hashrate": 52446253242701650000,
+    "activeAccounts": 32518,
+    "circulatingSupply": 255.454033517944,
+    "numberOfEntries": 3997
+  },
+  {
+    "id": "2020-08-05",
+    "month": "2020-08",
+    "hashrate": 53722159225198310000,
+    "activeAccounts": 32874,
+    "circulatingSupply": 255.454033517944,
+    "numberOfEntries": 3967
+  },
+  {
+    "id": "2020-08-06",
+    "month": "2020-08",
+    "hashrate": 52889954931736840000,
+    "activeAccounts": 33321,
+    "circulatingSupply": 255.454033517944,
+    "numberOfEntries": 3940
+  },
+  {
+    "id": "2020-08-07",
+    "month": "2020-08",
+    "hashrate": 53619396246772170000,
+    "activeAccounts": 34062,
+    "circulatingSupply": 255.454033517944,
+    "numberOfEntries": 3959
+  },
+  {
+    "id": "2020-08-08",
+    "month": "2020-08",
+    "hashrate": 54265728493079700000,
+    "activeAccounts": 34591,
+    "circulatingSupply": 255.454033517944,
+    "numberOfEntries": 3926
+  },
+  {
+    "id": "2020-08-09",
+    "month": "2020-08",
+    "hashrate": 56385650639845220000,
+    "activeAccounts": 34675,
+    "circulatingSupply": 255.454033517944,
+    "numberOfEntries": 3796
+  },
+  {
+    "id": "2020-08-10",
+    "month": "2020-08",
+    "hashrate": 52347893535915380000,
+    "activeAccounts": 34693,
+    "circulatingSupply": 255.454033517944,
+    "numberOfEntries": 3880
+  },
+  {
+    "id": "2020-08-11",
+    "month": "2020-08",
+    "hashrate": 53929009319088360000,
+    "activeAccounts": 34808,
+    "circulatingSupply": 255.454033517944,
+    "numberOfEntries": 4028
+  },
+  {
+    "id": "2020-08-12",
+    "month": "2020-08",
+    "hashrate": 55032760167644740000,
+    "activeAccounts": 34845,
+    "circulatingSupply": 265.454033517944,
+    "numberOfEntries": 3909
+  },
+  {
+    "id": "2020-08-13",
+    "month": "2020-08",
+    "hashrate": 56118266967923600000,
+    "activeAccounts": 34858,
+    "circulatingSupply": 265.454033517944,
+    "numberOfEntries": 7009
+  },
+  {
+    "id": "2020-08-14",
+    "month": "2020-08",
+    "hashrate": 55122331366398394000,
+    "activeAccounts": 34875,
+    "circulatingSupply": 265.454033517944,
+    "numberOfEntries": 3923
+  },
+  {
+    "id": "2020-08-15",
+    "month": "2020-08",
+    "hashrate": 56037942581027000000,
+    "activeAccounts": 34881,
+    "circulatingSupply": 265.454033517944,
+    "numberOfEntries": 3889
+  },
+  {
+    "id": "2020-08-16",
+    "month": "2020-08",
+    "hashrate": 55009030891935000000,
+    "activeAccounts": 34893,
+    "circulatingSupply": 265.454033517944,
+    "numberOfEntries": 3799
+  },
+  {
+    "id": "2020-08-17",
+    "month": "2020-08",
+    "hashrate": 46232012476351050000,
+    "activeAccounts": 34908,
+    "circulatingSupply": 265.454033517944,
+    "numberOfEntries": 3695
+  },
+  {
+    "id": "2020-08-18",
+    "month": "2020-08",
+    "hashrate": 41990841666120330000,
+    "activeAccounts": 34912,
+    "circulatingSupply": 265.454033517944,
+    "numberOfEntries": 3829
+  },
+  {
+    "id": "2020-08-19",
+    "month": "2020-08",
+    "hashrate": 46256100431085000000,
+    "activeAccounts": 34918,
+    "circulatingSupply": 270.453657697944,
+    "numberOfEntries": 3943
+  },
+  {
+    "id": "2020-08-20",
+    "month": "2020-08",
+    "hashrate": 48055979602128000000,
+    "activeAccounts": 34922,
+    "circulatingSupply": 270.453657697944,
+    "numberOfEntries": 3672
+  },
+  {
+    "id": "2020-08-21",
+    "month": "2020-08",
+    "hashrate": 49898026649425410000,
+    "activeAccounts": 34932,
+    "circulatingSupply": 270.453657697944,
+    "numberOfEntries": 3807
+  },
+  {
+    "id": "2020-08-22",
+    "month": "2020-08",
+    "hashrate": 49924248361387340000,
+    "activeAccounts": 34944,
+    "circulatingSupply": 270.453657697944,
+    "numberOfEntries": 3668
+  },
+  {
+    "id": "2020-08-23",
+    "month": "2020-08",
+    "hashrate": 49085089883696310000,
+    "activeAccounts": 34946,
+    "circulatingSupply": 270.453657697944,
+    "numberOfEntries": 3660
+  },
+  {
+    "id": "2020-08-24",
+    "month": "2020-08",
+    "hashrate": 51528597194084890000,
+    "activeAccounts": 34945,
+    "circulatingSupply": 270.453657697944,
+    "numberOfEntries": 3717
+  },
+  {
+    "id": "2020-08-25",
+    "month": "2020-08",
+    "hashrate": 53857418181249850000,
+    "activeAccounts": 34954,
+    "circulatingSupply": 270.453657697944,
+    "numberOfEntries": 3853
+  },
+  {
+    "id": "2020-08-26",
+    "month": "2020-08",
+    "hashrate": 54634262527314100000,
+    "activeAccounts": 34957,
+    "circulatingSupply": 270.453657697944,
+    "numberOfEntries": 3927
+  },
+  {
+    "id": "2020-08-27",
+    "month": "2020-08",
+    "hashrate": 52079408556423630000,
+    "activeAccounts": 34960,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 3867
+  },
+  {
+    "id": "2020-08-28",
+    "month": "2020-08",
+    "hashrate": 52525663899142120000,
+    "activeAccounts": 34966,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 3711
+  },
+  {
+    "id": "2020-08-29",
+    "month": "2020-08",
+    "hashrate": 51498594760088486000,
+    "activeAccounts": 34971,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 3899
+  },
+  {
+    "id": "2020-08-30",
+    "month": "2020-08",
+    "hashrate": 47128207726211570000,
+    "activeAccounts": 34983,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 3831
+  },
+  {
+    "id": "2020-08-31",
+    "month": "2020-08",
+    "hashrate": 47536546298730725000,
+    "activeAccounts": 34993,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 3812
+  }
+]

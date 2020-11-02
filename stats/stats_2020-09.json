@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2020-09-01",
+    "month": "2020-09",
+    "hashrate": 48914469310237204000,
+    "activeAccounts": 35004,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 3621
+  },
+  {
+    "id": "2020-09-02",
+    "month": "2020-09",
+    "hashrate": 48700159513706650000,
+    "activeAccounts": 35019,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 3883
+  },
+  {
+    "id": "2020-09-03",
+    "month": "2020-09",
+    "hashrate": 48791578088615805000,
+    "activeAccounts": 35038,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 3876
+  },
+  {
+    "id": "2020-09-04",
+    "month": "2020-09",
+    "hashrate": 48092422583260320000,
+    "activeAccounts": 35055,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 3783
+  },
+  {
+    "id": "2020-09-05",
+    "month": "2020-09",
+    "hashrate": 41353829563794390000,
+    "activeAccounts": 35055,
+    "circulatingSupply": 270.463657697944,
+    "numberOfEntries": 61
+  }
+]

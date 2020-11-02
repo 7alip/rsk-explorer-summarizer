@@ -1,6 +1,5 @@
-import getAverageValue from '../utils/getAverageValue'
-import convertTimestampToString from '../utils/convertTimestampToString'
 import { IMongoStats, IStastSummaryObject, ISummaryStats } from '../types/stats'
+import { format } from 'date-fns'
 
 /**
  *
@@ -9,9 +8,10 @@ import { IMongoStats, IStastSummaryObject, ISummaryStats } from '../types/stats'
  * @returns summarized stats array
  */
 const groupAndSummarizeStats = (statsData: IMongoStats[]): ISummaryStats[] => {
-  const statsSummary: IStastSummaryObject = statsData.reduce((obj: IStastSummaryObject, item, index) => {
-    const date = convertTimestampToString(item.timestamp)
-    const month = convertTimestampToString(item.timestamp, 'month')
+  const statsSummary: IStastSummaryObject = statsData.reduce((obj: IStastSummaryObject, item) => {
+    const date = format(item.timestamp, 'yyyy-MM-dd')
+    const month = format(item.timestamp, 'yyyy-MM')
+    const numberOfEntries = obj[date]?.numberOfEntries || 0
 
     const prevActiveAccounts = obj[date]?.activeAccounts || 0
     const currentActiveAccounts = item.activeAccounts
@@ -23,7 +23,7 @@ const groupAndSummarizeStats = (statsData: IMongoStats[]): ISummaryStats[] => {
 
     const currentHashrate = item.hashrate
     const prevAvgHashrate = obj[date]?.hashrate || 0
-    const avgHashrate = getAverageValue(prevAvgHashrate, currentHashrate, index)
+    const avgHashrate = (prevAvgHashrate * numberOfEntries + currentHashrate) / (numberOfEntries + 1)
 
     // Update existing summary object
     if (obj[date]) {
@@ -31,7 +31,7 @@ const groupAndSummarizeStats = (statsData: IMongoStats[]): ISummaryStats[] => {
       obj[date].activeAccounts = maxActiveAccounts
       obj[date].circulatingSupply = maxCirculatingSupply
       obj[date].month = month
-      obj[date].count = obj[date].count + 1
+      obj[date].numberOfEntries = numberOfEntries + 1
     } else {
       // Create new summary object
       obj[date] = {
@@ -39,21 +39,23 @@ const groupAndSummarizeStats = (statsData: IMongoStats[]): ISummaryStats[] => {
         activeAccounts: maxActiveAccounts,
         circulatingSupply: maxCirculatingSupply,
         month,
-        count: 1,
+        numberOfEntries: 1,
       }
     }
 
     return obj
   }, {})
 
-  return Object.entries(statsSummary).map(([key, { month, hashrate, activeAccounts, circulatingSupply, count }]) => ({
-    id: key,
-    month,
-    hashrate,
-    activeAccounts,
-    circulatingSupply,
-    count,
-  }))
+  return Object.entries(statsSummary).map(
+    ([key, { month, hashrate, activeAccounts, circulatingSupply, numberOfEntries }]) => ({
+      id: key,
+      month,
+      hashrate,
+      activeAccounts,
+      circulatingSupply,
+      numberOfEntries,
+    }),
+  )
 }
 
 export default groupAndSummarizeStats

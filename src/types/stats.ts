@@ -16,9 +16,10 @@ export type ISummaryStats = {
   hashrate: number
   activeAccounts: number
   circulatingSupply: number
+  numberOfEntries: number
 }
 
 export type IStastSummaryObject = Record<
   string,
-  { month: string; hashrate: number; activeAccounts: number; circulatingSupply: number; count: number }
+  { month: string; hashrate: number; activeAccounts: number; circulatingSupply: number; numberOfEntries: number }
 >
