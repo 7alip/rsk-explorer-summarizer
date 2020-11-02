@@ -36,7 +36,10 @@ const DB_NAME = 'blockDB_1_1_5'
     }),
   )
 
-  writeFile('result-stats', statsResultArr)
+  writeFile(
+    'result-stats',
+    statsResultArr.sort((a, b) => (a.id > b.id ? 1 : -1)),
+  )
 
   console.log('All stats files has been written succesfully!')
 
